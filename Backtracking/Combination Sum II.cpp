@@ -25,7 +25,7 @@ public:
                 continue; //ignore duplicate elements
             curr.push_back(candidates[i]);
             solve(candidates, target-candidates[i], curr, result, i+1);
-            curr.pop_back();
+            curr.pop_back():
         }
     }
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
